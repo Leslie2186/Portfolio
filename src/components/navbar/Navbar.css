@@ -1,0 +1,30 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img{
+    width: 100px;
+    border-radius: 100px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu li{
+    list-style-type: none;
+    text-decoration: none;
+    margin-right: 150px;
+}
+
+.menu a{
+    color: black;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
