@@ -9,8 +9,8 @@ function Navbar() {
         </div>
         <ul>
             <li><a href="/">Présentation</a></li>
-            <li><a href="/Projets">Mes Projets</a></li>
-            <li><a href="/Contact">Me contacter</a></li>
+            <li><a href="/projets">Mes Projets</a></li>
+            <li><a href="/contact">Me contacter</a></li>
         </ul>
     </nav>
   )
