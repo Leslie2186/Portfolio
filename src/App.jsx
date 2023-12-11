@@ -1,12 +1,12 @@
 import Navbar from './components/navbar/Navbar.jsx';
 import './App.css';
-import Presentation from './components/presentation/Presentation.jsx';
+import { Outlet } from 'react-router-dom';
 
 function App() {
 
   return <div>
     <Navbar />
-    <Presentation />
+    <Outlet />
   </div>
 }
 
