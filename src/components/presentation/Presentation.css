@@ -1,0 +1,25 @@
+.competences{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.containHardSkills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hardSkills, .softSkills{
+    margin-right: 100px;
+    text-align: left;
+}
+
+.hardSkills h4, .softSkills h4{
+    text-align: center;
+}
+
+.hardSkills li, .softSkills li{
+    list-style-type: none;
+}
