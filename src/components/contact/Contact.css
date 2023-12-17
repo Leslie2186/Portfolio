@@ -1,0 +1,46 @@
+.containFormContact h1{
+    color: green;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.containForm{
+    display: flex;
+    justify-content: center;
+    margin-bottom:70px;
+}
+
+.contactForm{
+    border: thick double green;
+    border-radius: 10px;
+    padding: 50px;
+    text-align: right;
+
+}
+
+.contactForm span{
+    margin-right:15px;
+    font-weight: bold;
+}
+
+.contactForm input{
+    margin-bottom:30px;
+}
+
+.submit{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttonsubmit{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    font-weight: bold;
+}
+
+.buttonsubmit:hover{
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+}

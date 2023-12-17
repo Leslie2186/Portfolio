@@ -1,0 +1,35 @@
+.containFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 90px;
+    font-weight: bold;
+}
+
+.socialNetwork{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.socialNetwork img{
+    width: 40px;
+}
+
+.socialNetwork img.github{
+   padding-top: 8px;
+}
+
+.socialNetwork a{
+    display: inline-block;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.socialNetwork img.linkedin{
+    width: 58px;
+}

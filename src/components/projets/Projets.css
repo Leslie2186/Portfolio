@@ -1,0 +1,59 @@
+.containProjets h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: green;
+}
+
+.listProjets{
+    width: 100%;
+    display: grid;
+}
+
+.listProjets ul{
+    margin: 0 auto;
+    padding-right: 35px;
+}
+
+.listProjets li{
+    list-style-type: none;
+    border-radius: 10px;
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.autresImg{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.autresImg li{
+    list-style-type: none;
+}
+
+.autresImg li img{
+    width: 200px;
+}
+
+.listProjets h2{
+    color: green;
+}
+
+.listProjets h4{
+    color: green;
+}
+
+.deployed{
+    font-weight: bold;
+}
+
+.listProjets img{
+    width: 500px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
