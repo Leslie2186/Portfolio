@@ -1,16 +1,17 @@
+import {Link} from "react-router-dom";
 import './Navbar.css';
 import photoMoi from '../../assets/photoleslie.jpg';
 
 function Navbar() {
   return (
     <nav className='menu'>
-        <div>
-            <img src={photoMoi} alt="Photo de Leslie"/>
+        <div className="containImgTitle">
+            <img src={photoMoi} alt="Photo de Leslie"/><p>Leslie Pellegrin Moraud</p>
         </div>
         <ul>
-            <li><a href="/">Présentation</a></li>
-            <li><a href="/projets">Mes Projets</a></li>
-            <li><a href="/contact">Me contacter</a></li>
+            <li><Link to="/">// Présentation</Link></li>
+            <li><Link to="/projets">// Mes Projets</Link></li>
+            <li><Link to="/contact">// Me contacter</Link></li>
         </ul>
     </nav>
   )
