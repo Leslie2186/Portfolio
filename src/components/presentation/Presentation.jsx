@@ -1,4 +1,5 @@
 import './Presentation.css';
+import cadre from "../../assets/cadre.png";
 
 function Presentation() {
   return (
@@ -10,6 +11,9 @@ function Presentation() {
                Etant curieuse de nature et passionnée par le développement, j’aime apprendre et me former sur de nouvelles technologies.<br/>
                Mes expériences professionnelles m’ont permis d’acquérir un ensemble de compétences et d’aptitudes que je souhaite mettre à profit dans votre entreprise.
             </p>
+            <div className='containCadreHaut'>
+                    <img src={cadre} alt="Cadre" />
+            </div>
             <div className="competences">
                 <div className="hardSkills">
                     <h4>Mes Hard skills</h4>
@@ -81,6 +85,9 @@ function Presentation() {
                         </ul>
                     </div>
                 </div>
+            </div>
+            <div className='containCadreBas'>
+                    <img src={cadre} alt="Cadre" />
             </div>
             <div className='containProjets'>
                 

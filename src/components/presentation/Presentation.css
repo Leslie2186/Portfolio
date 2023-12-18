@@ -3,6 +3,18 @@
     color: green;
 }
 
+.containCadreHaut{
+    text-align: left;
+    margin-left: 215px;
+    margin-top: 70px;
+    margin-bottom: -200px;
+}
+
+.containCadreHaut img{
+    width: 300px;
+    transform : rotate(270deg);
+}
+
 .competences{
     display: flex;
     justify-content: center;
@@ -20,7 +32,6 @@
 .hardSkills, .softSkills{
     margin-right: 100px;
     text-align: left;
-    border: thick double green;
     border-radius: 10px;
     text-align: center;
     margin-top: 30px;
@@ -37,4 +48,16 @@
 
 .green{
     color: green;
+}
+
+.containCadreBas{
+    text-align: right;
+    margin-right: 305px;
+    margin-top: -165px;
+    margin-bottom: 50px;
+}
+
+.containCadreBas img{
+    width: 300px;
+    transform : rotate(90deg);
 }
