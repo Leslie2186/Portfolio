@@ -8,14 +8,31 @@
     display: flex;
     justify-content: center;
     margin-bottom:70px;
+    padding-top: 180px;
+}
+
+.contactContainCadreHaut{
+    margin-top: -180px;
+    text-align: left;
+    margin-left: 215px;
+}
+
+.contactContainCadreHaut img{
+    width: 300px;
+    transform : rotate(270deg);
 }
 
 .contactForm{
-    border: thick double green;
     border-radius: 10px;
     padding: 50px;
+    padding-left: 0px;
     text-align: right;
 
+}
+
+.contactForm label {
+    display: flex;
+    justify-content: right;
 }
 
 .contactForm span{
@@ -25,6 +42,14 @@
 
 .contactForm input{
     margin-bottom:30px;
+    width: 200px;
+    padding: 5px;
+}
+
+.contactForm textarea{
+    width: 200px;
+    height: 250px;
+    padding: 5px;
 }
 
 .submit{
@@ -43,4 +68,15 @@
     color: white;
     background-color: green;
     border: 1px solid green;
+}
+
+.contactContainCadreBas{
+    margin-top: 390px;
+    text-align: right;
+    margin-right: 305px;
+}
+
+.contactContainCadreBas img{
+    width: 300px;
+    transform : rotate(90deg);
 }
