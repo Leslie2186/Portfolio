@@ -1,17 +1,11 @@
 import { Link } from 'react-router-dom';
-import Quizbiarritz from "../../assets/quizbiarritz.png";
-import SuperheroCards from "../../assets/superherocards.png";
+import mobilequizz from "../../assets/mobileQuizz.png";
+import tablettequizz from "../../assets/tabletteQuizz.png";
+import pcquizz from "../../assets/pcquizz.png";
+import mobilesh from "../../assets/mobileSH.png";
+import tablettesh from "../../assets/tabletteSH.png";
+import pcsh from "../../assets/pcSH.png";
 import MesVacances from "../../assets/mesvacances.png";
-import question from "../../assets/question.png";
-import repquestion from "../../assets/repquestion.png";
-import validationrep from "../../assets/validationrep.png"
-import correctionrep  from "../../assets/correctionrep.png";
-import finquizz from "../../assets/finquizz.png";
-import detailSPC from "../../assets/detailunsuperhero.png";
-import shcfavoris from "../../assets/SHCFavoris.png";
-import versushaut from "../../assets/SHCVersusHaut.png";
-import versusbas from "../../assets/SHCVersusBas.png";
-import contact from "../../assets/SHCContact.png";
 import MVModifDelete from "../../assets/MVModifDelete.png";
 import MVModifDeletePays from "../../assets/MVModifDeletePays.png";
 import MVContact from "../../assets/MVContact.png";
@@ -28,22 +22,16 @@ function Projets() {
                 <div className='projet1containCadreHaut'>
                     <img src={cadre} alt="Cadre" />
                 </div>
-                <li>
+                <li className='projetQuizz'>
                     <h2>Quiz Biarritz</h2>
                     <p>Objectif: Réaliser un quizz permettant de découvrir la ville de Biarritz, son histoire et sa culture.</p>
                     <p className='green'>HTML / CSS / JavaScript / DOM / Git / GitHub</p>
-                    <p className='deployed'>Cliquer sur l'image ci-dessous pour accéder au site</p>
-                    <Link to="https://valihna.github.io/Projet-quiz/" target="_blank">
-                        <img src={Quizbiarritz} alt="Quiz Biarritz"/>
+                    <p className='deployed'>Cliquer sur une des images ci-dessous pour accéder au site</p>
+                    <Link to="https://valihna.github.io/Projet-quiz/" target="_blank" >
+                        <img src={mobilequizz} alt="Quiz Biarritz version mobile" className='versionMobile'/>
+                        <img src={pcquizz} alt="Quiz Biarritz version pc" className='versionPc'/>
+                        <img src={tablettequizz} alt="Quiz Biarritz version tablette" className='versionTablette'/>
                     </Link>
-                    <h4>Détails du site :</h4>
-                    <ul className='autresImg'>
-                        <li><img src={question} alt="Question du quizz"/></li> 
-                        <li><img src={repquestion} alt="Réponse à une question du quizz"/></li>
-                        <li><img src={validationrep} alt="validation d'une question du quizz"/></li> 
-                        <li><img src={correctionrep} alt="Image du quizz lors de la correction d'une réponse"/></li>
-                        <li><img src={finquizz} alt="Image du score à la fin du quizz"/></li>
-                    </ul>
                 </li>
                 <div className='projet1containCadreBas'>
                     <img src={cadre} alt="Cadre" />
@@ -51,23 +39,17 @@ function Projets() {
                 <div className='projet2containCadreHaut'>
                     <img src={cadre} alt="Cadre" />
                 </div>
-                <li>
+                <li className='projetSh'>
                     <h2>Super Hero Cards</h2>
                     <p>Objectif: Réaliser un site pour découvrir tous les super-héros existants, découvrir leurs caratéristiques et leurs skills.</p>
                     <p>Possibilité de mise en favoris de ses super-héros préférés et d'affrontement entre deux super-héros.</p>
                     <p className='green'>HTML / CSS / JavaScript / React / Express.js / MySQL / Git / GitHub</p>
-                    <p className='deployed'>Cliquer sur l'image ci-dessous pour accéder au site</p>
+                    <p className='deployed'>Cliquer sur une des images ci-dessous pour accéder au site</p>
                     <Link to="https://capteam-america.remote-fr-3.wilders.dev/" target="_blank">
-                        <img src={SuperheroCards} alt="Super Hero Cards"/>
+                        <img src={mobilesh} alt="Super Hero Cards sur mobile" className='versionMobile'/>
+                        <img src={tablettesh} alt="Super Hero Cards sur tablette" className='versionTablette'/>
+                        <img src={pcsh} alt="Super Hero Cards sur pc" className='versionPc'/>
                     </Link>
-                    <h4>Détails du site :</h4>
-                    <ul className='autresImg'>
-                        <li><img src={detailSPC} alt="Détail d'une carte de super-héro"/></li> 
-                        <li><img src={shcfavoris} alt="Mise en favoris de super-héros"/></li>
-                        <li><img src={versushaut} alt="Ring de combat entre deux super-héros partie haute"/></li> 
-                        <li><img src={versusbas} alt="Ring de combat entre deux super-héros partie basse"/></li>
-                        <li><img src={contact} alt="Page de contact du site"/></li>
-                    </ul>
                 </li>
                 <div className='projet2containCadreBas'>
                     <img src={cadre} alt="Cadre" />
