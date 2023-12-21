@@ -15,6 +15,7 @@
     margin-top: -180px;
     text-align: left;
     margin-left: 215px;
+    visibility: hidden;
 }
 
 .contactContainCadreHaut img{
@@ -24,9 +25,9 @@
 
 .contactForm{
     border-radius: 10px;
-    padding: 50px;
-    padding-left: 0px;
     text-align: right;
+    padding-right: 0;
+    padding-left: 20px;
 
 }
 
@@ -74,9 +75,21 @@
     margin-top: 390px;
     text-align: right;
     margin-right: 305px;
+    visibility: hidden;
 }
 
 .contactContainCadreBas img{
     width: 300px;
     transform : rotate(90deg);
+}
+
+
+@media screen and (min-width: 1200px){
+    .contactContainCadreBas, .contactContainCadreHaut{
+        visibility: visible;
+    }
+
+    .contactForm{
+        padding: 50px;
+    }
 }
