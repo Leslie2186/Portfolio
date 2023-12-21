@@ -30,10 +30,6 @@
     list-style-type: none;
 }
 
-.autresImg li img{
-    width: 350px;
-}
-
 .siteVacances li img:hover{
     width: 500px;
 }
@@ -54,7 +50,30 @@
 .listProjets img{
     width: 500px;
     margin-bottom: 30px;
-    border: 1px solid black;
+}
+
+.siteVacances .autresImg img{
+    width: 300px;
+}
+
+.projetQuizz img, .projetSh img{
+    border: none ;
+    margin-right: 20px;
+}
+
+.projetQuizz .versionTablette, .projetSh .versionTablette{
+    height: 300px;
+    width: auto;
+}
+
+.projetQuizz .versionMobile, .projetSh .versionMobile{
+    height: 250px;
+    width: auto;
+}
+
+.projetQuizz .versionPc, .projetSh .versionMobile{
+    height: 300px;
+    width: auto;
 }
 
 .green{
@@ -62,29 +81,62 @@
     font-weight: bold;
 }
 
-.projet1containCadreHaut, .projet2containCadreHaut, .projet3containCadreHaut{
-    margin-left: -150px;
-    margin-bottom: -235px;
+.projet1containCadreHaut, .projet2containCadreHaut, .projet3containCadreHaut, .projet1containCadreBas, .projet2containCadreBas, .projet3containCadreBas{
+    display: none;
 }
 
-.projet1containCadreHaut, .projet2containCadreHaut, .projet3containCadreHaut{
-    text-align: left;
-    margin-top: 70px;
+@media screen and (max-width: 600px){
+    .listProjets{
+        width: 100%;
+        display: block;
+    }
+    
+    .projetQuizz .versionPc, .projetSh .versionPc{
+        height: 200px;
+        width: auto;
+    }
+
+    .siteVacances img{
+        width: 350px;
+    }
+
+    .siteVacances li img{
+        width: 250px;
+    }
+
+    .siteVacances li img:hover{
+        width: 400px;
+    }
 }
 
-.projet1containCadreHaut img, .projet2containCadreHaut img, .projet3containCadreHaut img{
-    width: 300px;
-    transform : rotate(270deg);
-    border: none;
-}
 
-.projet1containCadreBas img, .projet2containCadreBas img, .projet3containCadreBas img{
-    width: 300px;
-    transform : rotate(90deg);
-    border: none;
-}
+@media screen and (min-width: 1300px){
 
-.projet1containCadreBas, .projet2containCadreBas, .projet3containCadreBas{
-    margin-right: -450px;
-    margin-top: -195px;
+    .projet1containCadreHaut, .projet2containCadreHaut, .projet3containCadreHaut{
+        margin-left: -150px;
+        margin-bottom: -235px;
+        display: block;
+    }
+    
+    .projet1containCadreHaut, .projet2containCadreHaut, .projet3containCadreHaut{
+        text-align: left;
+    }
+    
+    .projet1containCadreHaut img, .projet2containCadreHaut img, .projet3containCadreHaut img{
+        width: 300px;
+        transform : rotate(270deg);
+        border: none;
+    }
+    
+    .projet1containCadreBas img, .projet2containCadreBas img, .projet3containCadreBas img{
+        width: 300px;
+        transform : rotate(90deg);
+        border: none;
+    }
+    
+    .projet1containCadreBas, .projet2containCadreBas, .projet3containCadreBas{
+        margin-right: -900px;
+        margin-top: -130px;
+        display: block;
+    }
 }

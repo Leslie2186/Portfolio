@@ -45,3 +45,18 @@
 .menu a:hover{
     color: green;
 }
+
+@media screen and (max-width: 824px){
+    .menu{
+        display: block;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+    .menu li {
+        margin-bottom: 20px;
+        margin-left: 40px;
+    }
+}
