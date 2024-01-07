@@ -1,0 +1,38 @@
+.projetQuizz{
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.projetQuizz img{
+    height: 300px;
+}
+
+.projetQuizz img .versionPc{
+    width: 400px;
+    height: auto;
+}
+
+.green{
+    font-weight: bold;
+}
+
+.deployed{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 1000px){
+    .projetQuizz{
+        width: 1000px;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+}

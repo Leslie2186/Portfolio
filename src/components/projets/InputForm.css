@@ -1,0 +1,50 @@
+.projets{
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    list-style-type: none;
+    margin-bottom: 100px;
+}
+
+.projets .images{
+    height: 300px;
+    width: auto;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.projets .imgdesktop{
+    width: 400px;
+    height: auto;
+}
+
+.voirplus{
+    display: inline-block;
+    margin-bottom: 50px;
+    background-color: transparent;
+    width: 100px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.voirplus p{
+    color: white;
+}
+
+.voirplus:hover{
+    background-color: white;
+}
+
+.voirplus:hover > p{
+    color: #01C380;
+}
+
+@media screen and (min-width : 1000px){
+    .projets{
+        width: 1000px;
+    }
+}

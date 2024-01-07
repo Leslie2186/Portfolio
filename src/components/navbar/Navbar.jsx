@@ -1,12 +1,12 @@
 import {Link} from "react-router-dom";
 import './Navbar.css';
-import photoMoi from '../../assets/photoleslie.jpg';
+
 
 function Navbar() {
   return (
     <nav className='menu'>
-        <div className="containImgTitle">
-            <img src={photoMoi} alt="Photo de Leslie"/><p>Leslie Pellegrin Moraud</p>
+        <div id="containName">
+          <Link to="/"><p>LPM</p></Link>
         </div>
         <ul>
             <li><Link to="/">// Présentation</Link></li>

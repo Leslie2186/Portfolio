@@ -1,93 +1,86 @@
 import './Presentation.css';
-import cadre from "../../assets/cadre.png";
+import photoMoi from '../../assets/photoleslie.jpg';
+import html from '../../assets/html-5.png';
+import css from '../../assets/css-3.png';
+import js from '../../assets/javascript.png';
+import react from '../../assets/react.svg';
+import vite from '../../assets/vite.png';
+import express from '../../assets/express.png';
+import node from '../../assets/nodejs.png';
+import mysql from '../../assets/mysql.png';
+import postman from '../../assets/postman.png';
+import wordpress from '../../assets/wordpress.png';
+import photoshop from '../../assets/photoshop.png';
+import figma from '../../assets/figma.png';
+import premiere from '../../assets/premiere.png';
+import canva from '../../assets/canva.png';
+import trello from '../../assets/trello.png';
 
 function Presentation() {
   return (
     <div className='containPresentation'>
-        <h1>Développeuse Web Fullstack</h1>
+        <div className='containTitleImg'>
+            <h1>Bonjour, je m&apos;appelle <span>Leslie</span> <br/> Je suis développeuse web <span>Fullstack</span></h1>
+            <img src={photoMoi} alt="Photo de Leslie"/>
+        </div>
         <div>
-            <h2>Bonjour, je m&apos;appelle Leslie, je suis développeuse web Fullstack, spécialisée en JavaScript!</h2>
             <p>
-               Etant curieuse de nature et passionnée par le développement, j’aime apprendre et me former sur de nouvelles technologies.<br/>
-               Mes expériences professionnelles m’ont permis d’acquérir un ensemble de compétences et d’aptitudes que je souhaite mettre à profit dans votre entreprise.
+               Etant <span>curieuse</span> de nature et <span>passionnée</span> par le développement, j’aime <span>apprendre</span> et me former sur de nouvelles technologies.<br/>
+               Mes expériences <span>professionnelles</span> m’ont permis d’acquérir un ensemble de <span>compétences</span> et d’aptitudes que je souhaite mettre à profit dans votre entreprise.
             </p>
-            <div className='containCadreHaut'>
-                    <img src={cadre} alt="Cadre" />
-            </div>
             <div className="competences">
                 <div className="hardSkills">
-                    <h4>Mes Hard skills</h4>
+                    <h4>HARD SKILLS</h4>
                     <div className="containHardSkills">
                         <ul>
-                            <li className='green'>
-                                HTML5
+                            <li>
+                                <img src={html} alt="Logo Html"/>
                             </li>
                             <li>
-                                CSS3
-                            </li>
-                            <li className='green'>
-                                JavaScript
+                                <img src={css} alt="Logo Css"/>
                             </li>
                             <li>
-                                ReactJs
-                            </li>
-                            <li className='green'>
-                                Vite.Js
+                                <img src={js} alt="Logo JavaScript"/>
                             </li>
                             <li>
-                                Node.Js
-                            </li>
-                            <li className='green'>
-                                Express.Js
+                                <img src={react} alt="Logo React"/>
                             </li>
                             <li>
-                                MySQL
-                            </li>
-                        </ul>
-                        <ul>
-                            <li className='green'>
-                                Postman
+                                <img src={vite} alt="Logo Vite.Js"/>
                             </li>
                             <li>
-                                Wordpress
-                            </li>
-                            <li className='green'>
-                                Photoshop
+                                <img src={node} alt="Logo Node.Js"/>
                             </li>
                             <li>
-                                Figma
-                            </li>
-                            <li className='green'>
-                                Premiere
+                                <img src={express} alt="Logo Express.Js"/>
                             </li>
                             <li>
-                                Canva
+                                <img src={mysql} alt="Logo MySQL"/>
                             </li>
-                            <li className='green'>
-                                Trello
+                            <li>
+                                <img src={postman} alt="Logo Postman"/>
+                            </li>
+                            <li>
+                                <img src={wordpress} alt="Logo Wordpress"/>
+                            </li>
+                            <li>
+                                <img src={photoshop} alt="Logo Photoshop"/>
+                            </li>
+                            <li>
+                                <img src={figma} alt="Logo Figma"/>
+                            </li>
+                            <li>
+                                <img src={premiere} alt="Logo Premiere"/>
+                            </li>
+                            <li>
+                             <img src={canva} alt="Logo Canva"/>
+                            </li>
+                            <li>
+                             <img src={trello} alt="Logo Trello"/>
                             </li>
                         </ul>
                     </div>
                 </div>
-                <div className="softSkills">
-                    <h4>Mes Soft skills</h4>
-                    <div className="containSoftSkills">
-                        <ul>
-                            <li className='green'>Curieuse</li>
-                            <li>Organisée</li>
-                            <li className='green'>Rigoureuse</li>
-                            <li>Adaptable</li>
-                            <li className='green'>Bonne communiquante</li>
-                            <li>Bon esprit d&apos;équipe</li>
-                            <li className='green'>Souci du travail bien fait</li>
-                            <li>Pédagogue</li>
-                            <li className='green'>Créative</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div className='containCadreBas'>
-                    <img src={cadre} alt="Cadre" />
             </div>
             <div className='containProjets'>
                 

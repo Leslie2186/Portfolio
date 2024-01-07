@@ -1,5 +1,5 @@
 .containFormContact h1{
-    color: green;
+    color: white;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     margin-bottom:70px;
-    padding-top: 180px;
 }
 
 .contactContainCadreHaut{
@@ -19,7 +18,7 @@
 }
 
 .contactContainCadreHaut img{
-    width: 300px;
+    width: 250px;
     transform : rotate(270deg);
 }
 
@@ -31,25 +30,23 @@
 
 }
 
-.contactForm label {
-    display: flex;
-    justify-content: right;
-}
-
 .contactForm span{
     margin-right:15px;
+    margin-bottom: 10px;
     font-weight: bold;
+    display: block;
+    text-align: center;
 }
 
 .contactForm input{
     margin-bottom:30px;
-    width: 200px;
+    width: 300px;
     padding: 5px;
 }
 
 .contactForm textarea{
-    width: 200px;
-    height: 250px;
+    width: 300px;
+    height: 100px;
     padding: 5px;
 }
 
@@ -60,26 +57,25 @@
 
 .buttonsubmit{
     background-color: white;
-    color: green;
-    border: 1px solid green;
+    color: #01C380;
     font-weight: bold;
 }
 
 .buttonsubmit:hover{
     color: white;
-    background-color: green;
-    border: 1px solid green;
+    background-color: #01C380;
+    border: 1px solid #01C380;
 }
 
 .contactContainCadreBas{
     margin-top: 390px;
     text-align: right;
-    margin-right: 305px;
+    margin-right: 250px;
     visibility: hidden;
 }
 
 .contactContainCadreBas img{
-    width: 300px;
+    width: 250px;
     transform : rotate(90deg);
 }
 
@@ -91,5 +87,14 @@
 
     .contactForm{
         padding: 50px;
+    }
+
+    .contactForm input{
+        width: 500px;
+    }
+    
+    .contactForm textarea{
+        width: 500px;
+        height: 200px;
     }
 }

@@ -1,31 +1,44 @@
 .containPresentation{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.containPresentation span{
+    color: #01C380;
+    font-weight: bold;
 }
 
 .containPresentation h1{
     margin-top: 50px;
-    color: green;
+    margin-bottom: 50px;
+    color: white;
+    text-align: center;
+    margin-right: 50px;
 }
 
-.containCadreHaut{
-    text-align: left;
-    margin-left: 215px;
-    margin-top: 70px;
-    margin-bottom: -200px;
-    visibility: hidden;
+.containTitleImg{
+    display: block;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-.containCadreHaut img{
+.containTitleImg img{
+    border-radius: 160px;
     width: 300px;
-    transform : rotate(270deg);
+}
+
+.containPresentation p{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    margin-left: 60px;
+    margin-right: 30px;
 }
 
 .competences{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    margin-top: 150px;
     margin-bottom: 60px;
 }
 
@@ -35,7 +48,7 @@
     align-items: center;
 }
 
-.hardSkills, .softSkills{
+.hardSkills{
     margin-right: 100px;
     text-align: left;
     border-radius: 10px;
@@ -43,34 +56,32 @@
     margin-top: 30px;
 }
 
-.hardSkills h4, .softSkills h4{
-    text-align: center;
+.hardSkills ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    width: 70%;
 }
 
-.hardSkills li, .softSkills li{
+.hardSkills h4{
+    text-align: center;
+    font-size: 30px;
+}
+
+.hardSkills li{
     list-style-type: none;
     padding-right: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }
 
-.green{
-    color: green;
-}
-
-.containCadreBas{
-    text-align: right;
-    margin-right: 305px;
-    margin-top: -165px;
-    margin-bottom: 50px;
-    visibility: hidden;
-}
-
-.containCadreBas img{
-    width: 300px;
-    transform : rotate(90deg);
+.hardSkills li img{
+    width: 70px;
 }
 
 @media screen and (max-width: 824px){
-    .hardSkills, .softSkills {
+    .hardSkills{
         margin-right: 0;
     }
 
@@ -80,7 +91,18 @@
 }
 
 @media screen and (min-width: 1300px){
-    .containCadreBas, .containCadreHaut{
-        visibility: visible;
+    .containTitleImg{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .containPresentation h1{
+        text-align: justify;
+    }
+
+    .containPresentation p{
+        text-align: justify;
+        width: 50%;
     }
 }

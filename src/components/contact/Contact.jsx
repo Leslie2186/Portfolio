@@ -4,7 +4,6 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import InputForm from "./InputForm";
 import './Contact.css';
-import cadre from "../../assets/cadre.png";
 
 function Contact() {
   const [formValue, setFormValue] = useState({
@@ -61,13 +60,10 @@ function Contact() {
     <div className="containFormContact">
         <h1>Laissez moi un message</h1>
         <div className="containForm">
-          <div className='contactContainCadreHaut'>
-            <img src={cadre} alt="Cadre" />
-          </div>
           <form onSubmit={handleSubmit} className="contactForm">
             <div>
               <InputForm
-                label="Nom de famille"
+                label="Nom"
                 name="lastname"
                 type="text"
                 value={formValue.lastname}
@@ -114,9 +110,6 @@ function Contact() {
               </div>
             </div>
           </form>
-          <div className='contactContainCadreBas'>
-            <img src={cadre} alt="Cadre" />
-          </div>
         </div>
         <ToastContainer />
     </div>

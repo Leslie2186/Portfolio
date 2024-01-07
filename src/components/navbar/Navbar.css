@@ -2,22 +2,26 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: black;
-    color: white;
     padding: 15px 20px;
 }
 
-.containImgTitle{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+#containName{
     font-weight: bold;
+    padding: 10px;
+    border-radius: 40px;
+    width: 40px;
+    height: auto;
 }
 
-.menu img{
-    width: 100px;
-    border-radius: 100px;
-    margin-right: 20px;
+#containName a {
+    height: 40px;
+}
+
+#containName p{
+    color: #01C380;
+    margin-top: 9px;
+    font-style: italic;
+    font-size: 25px;
 }
 
 .menu ul{
@@ -30,20 +34,24 @@
     list-style-type: none;
     text-decoration: none;
     margin-right: 100px;
-    padding: 15px;
-    background-color: white;
+    padding: 20px;
     border-radius: 25px;
 }
 
 .menu a{
     display: inline-block;
-    color: black;
+    color: white;
     height: 25px;
     font-weight: bold;
+    font-size: 18px;
 }
 
-.menu a:hover{
-    color: green;
+.menu li:hover{
+    background-color: white;
+}
+
+.menu li:hover > a{
+    color: #01C380;
 }
 
 @media screen and (max-width: 824px){

@@ -28,6 +28,10 @@ body {
   place-items: center;
   min-width: 320px;
  /* min-height: 100vh;*/
+ /* background-color: #FBFFE3;*/
+ background: rgb(25,30,41);
+background: linear-gradient(60deg, rgba(25,30,41,1) 0%, rgba(19,45,70,1) 50%, rgba(25,30,41,1) 100%);
+  color: white;
 }
 
 h1 {
