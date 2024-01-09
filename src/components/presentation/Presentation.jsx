@@ -15,6 +15,8 @@ import figma from '../../assets/figma.png';
 import premiere from '../../assets/premiere.png';
 import canva from '../../assets/canva.png';
 import trello from '../../assets/trello.png';
+import git from '../../assets/git.png';
+import github from '../../assets/github.png';
 
 function Presentation() {
   return (
@@ -56,6 +58,12 @@ function Presentation() {
                             </li>
                             <li>
                                 <img src={mysql} alt="Logo MySQL"/>
+                            </li>
+                            <li>
+                                <img src={git} alt="Logo Git"/>
+                            </li>
+                            <li>
+                                <img src={github} alt="Logo GitHub"/>
                             </li>
                             <li>
                                 <img src={postman} alt="Logo Postman"/>
