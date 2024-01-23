@@ -37,10 +37,12 @@
 
 .voirplus:hover{
     background-color: white;
+    transition: 0.3s ease-in-out;
 }
 
 .voirplus:hover > p{
     color: #01C380;
+    transition: 0.2s ease-in-out;
 }
 
 @media screen and (min-width : 1000px){

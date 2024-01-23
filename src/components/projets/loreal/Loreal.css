@@ -1,0 +1,74 @@
+.projetLoreal{
+    border-radius: 10px;
+    list-style-type: none;
+    padding-bottom: 50px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 50px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.projetLoreal p{
+    text-align: justify;
+    line-height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.projetLoreal span{
+    color: #01C380;
+    font-weight: bold;
+}
+
+.langagesOutils{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.langagesOutils h3{
+    color: #01C380;
+}
+
+.langagesOutils ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.langagesOutils li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.langagesOutils li img{
+    width: 70px;
+    height: auto;
+}
+
+.videoSite{
+    text-align: center;
+}
+
+.videoSite video{
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+@media screen and (min-width: 1000px){
+    .projetLoreal{
+        width: 1000px;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+
+    .projetLoreal video{
+        width: 900px;
+    }
+
+    .projetLoreal p{
+        text-align: center;
+    }
+}
