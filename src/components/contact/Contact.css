@@ -1,3 +1,19 @@
+@keyframes myContact {
+    0% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.containFormContact{
+    animation: myContact 3s ease 0s 1 normal forwards;
+}
+
 .containFormContact h1{
     color: white;
     margin-top: 50px;
@@ -65,18 +81,7 @@
     color: white;
     background-color: #01C380;
     border: 1px solid #01C380;
-}
-
-.contactContainCadreBas{
-    margin-top: 390px;
-    text-align: right;
-    margin-right: 250px;
-    visibility: hidden;
-}
-
-.contactContainCadreBas img{
-    width: 250px;
-    transform : rotate(90deg);
+    transition: 0.3s ease-in-out;
 }
 
 
