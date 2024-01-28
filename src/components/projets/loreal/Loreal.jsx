@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import lorealvideo from "../../../assets/lorealvideo.mp4";
 import html from '../../../assets/html-5.png';
 import css from '../../../assets/css-3.png';
@@ -10,11 +11,14 @@ import mysql from '../../../assets/mysql.png';
 import './Loreal.css';
 
 function Loreal() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="projetLoreal">
       <h1>L'Oréal "BeWith"</h1> 
       <p><span>OBJECTIF : </span> Réaliser un <span>évènement</span> L'Oréal permettant de <span>redynamiser</span> les intéractions en <span>B&B</span> et en <span>B&C</span> pour le lancement de la prochaine gamme de <span>coloration</span>.
-      Ici l'évènement s'appelle "BeWith" et à pour but de trouver la nouvelle égérie de L'Oréal.</p> 
+      Ici l'évènement s'appelle "BeWith" et à pour but de trouver la nouvelle égérie de L'Oréal. Préparez-vous à <span>découvrir</span> un site entre <span>beauté</span> et <span>authenticité</span> avec Be With.</p> 
       <p><span>DESIGN : </span> Sobre et élégant, les formes et les couleurs sont en accord avec les sites L'Oréal.</p>
       <p><span>FONCTIONNEMENT : </span> Le site se compose d'une page d'accueil présentant le <span>concept</span> de l'évènement. Les candidates doivent  <span>s'inscrire</span> sur le formulaire à leur disposition sur le site.
       Elles <span>postent</span> une photo au <span>naturel</span>. Par la suite, elles vont chez leurs <span>coiffeurs</span> L'Oréal le plus proche et choisissent parmis la nouvelle <span>gamme une coloration</span> et une coupe.

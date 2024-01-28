@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import mobilequizz from "../../../assets/mobileQuizz.png";
 import tablettequizz from "../../../assets/tabletteQuizz.png";
@@ -10,10 +11,13 @@ import github from '../../../assets/github.png';
 import './ProjetQuizz.css';
 
 function ProjetQuizz() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='projetQuizz'>
       <h1>Projet Quizz</h1> 
-      <p><span>OBJECTIF : </span> Réaliser un quizz permettant de <span>découvrir</span> la ville de <span>Biarritz</span>, son histoire et sa culture.</p> 
+      <p><span>OBJECTIF : </span> Réaliser un quizz permettant de <span>découvrir</span> la ville de <span>Biarritz</span>, son histoire et sa culture. À travers ces <span>questions</span>, vous allez explorer les <span>racines</span> profondes, <span>l'âge d'or</span> et les <span>traditions</span> vivantes qui font de Biarritz une destination <span>incomparable</span>. Que votre voyage à travers cette ville continue à <span>enrichir</span> votre amour pour son histoire et sa <span>culture</span> !</p> 
       <p><span>DESIGN : </span> Sobre, élégant, formes arrondies, couleurs dominantes le bleu, le gris et le noir.</p>
       <p><span>FONCTIONNEMENT : </span> Pour chaque question, une seule bonne <span>réponse</span>. Lors de la <span>sélection</span> le bouton de la réponse devient bleu.
       Après validation, si la réponse est <span>juste</span> elle passe en <span>vert</span>, sinon elle passe en rouge et la bonne réponse devient verte.

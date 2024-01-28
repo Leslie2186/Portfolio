@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import mobilesh from "../../../assets/mobileSH.png";
 import tablettesh from "../../../assets/tabletteSH.png";
@@ -13,10 +14,14 @@ import mysql from '../../../assets/mysql.png';
 import './ProjetSuperHero.css';
 
 function ProjetSuperHero() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className='projetSh'>
       <h1>Super Hero Cards</h1>
-      <p><span>OBJECTIF : </span> Réaliser un site pour <span>découvrir</span> tous les <span>super-héros</span> existants, découvrir leurs caratéristiques et leurs skills.<br/>
+      <p><span>OBJECTIF : </span> Réaliser un site pour <span>découvrir</span> tous les <span>super-héros</span> existants, <span>redécouvrir</span> nos super-héros <span>préférés</span> et en apprendre toujours plus sur leurs <span>caratéristiques</span> et leurs <span>skills</span>.<br/>
       Possibilités de mettre en <span>favoris</span> ses super-héros préférés et de réaliser des <span>affrontements</span> entre deux super-héros.</p>
       <p><span>DESIGN : </span> Moderne, coloré, formes arrondies, boutons facilitant la prise en main, couleurs dominantes le blanc, le noir et le rouge.</p>
       <p><span>FONCTIONNEMENT : </span> Lorsque l'on arrive sur le site, il est possible de faire un <span>filtre</span> sur la <span>race</span> des super-héros. L'utilisateur a également la possibilité

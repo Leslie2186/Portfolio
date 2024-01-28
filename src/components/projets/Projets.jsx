@@ -4,12 +4,12 @@ import pcquizz from "../../assets/pcquizz.png";
 import mobilesh from "../../assets/mobileSH.png";
 import tablettesh from "../../assets/tabletteSH.png";
 import pcsh from "../../assets/pcSH.png";
-import MesVacances from "../../assets/mesvacances.png";
+import vacancesMobile from "../../assets/vacancesMobile.png";
+import vacancesTablette from "../../assets/vacancesTablette.png";
+import vacancesPc from "../../assets/vacancesPc.png";
 import lorealmobile from "../../assets/lorealmobile.png";
 import lorealtablette from "../../assets/lorealtablette.png";
 import lorealpc from "../../assets/lorealpc.png";
-import MVModifDelete from "../../assets/MVModifDelete.png";
-import MVContact from "../../assets/MVContact.png";
 import eatingmobile from "../../assets/eatingmobile.png";
 import eatingtablette from "../../assets/eatingtablette.png";
 import eatingpc from "../../assets/eatingpc.png";
@@ -31,7 +31,7 @@ function Projets() {
                     altDesktop= "Quiz Biarritz version pc"
                     imgTablette= {tablettequizz}
                     altTablette= "Quiz Biarritz version tablette"
-                    info= "Objectif: Réaliser un quizz permettant de découvrir la ville de Biarritz, son histoire et sa culture."
+                    info= "Bienvenue à Biarritz, une ville envoûtante nichée sur la côte basque française. Son histoire riche et sa culture vibrante caractérisent cette destination balnéaire unique. Êtes-vous prêt à explorer les trésors cachés de Biarritz ? Alors, plongez dans notre quizz envoûtant !"
                 />
                 <InputForm 
                     title= "Super Hero Cards"
@@ -42,7 +42,7 @@ function Projets() {
                     altDesktop= "Super Hero Cards sur pc"
                     imgTablette= {tablettesh}
                     altTablette= "Super Hero Cards sur tablette"
-                    info= "Objectif: Réaliser un site pour découvrir tous les super-héros existants, découvrir leurs caratéristiques et leurs skills. <br/> Possibilité de mise en favoris de ses super-héros préférés et d'affrontement entre deux super-héros."
+                    info= "Bienvenue dans le monde envoûtant des super héros, où le courage, la justice et le pouvoir se rencontrent ! Préparez-vous à découvrir de nouveaux héros, à redécouvrir vos super héros préférés et à en apprendre plus sur eux dans chaque carte de notre collection. Êtes-vous prêt à rejoindre la ligue des héros et à assister à des affrontements épiques ?"
                 />
                  <InputForm 
                     title= "L'Oréal - 'BeWith' la nouvelle Egérie"
@@ -53,18 +53,18 @@ function Projets() {
                     altDesktop= "L'Oréal BeWith nouvelle Egérie sur pc"
                     imgTablette= {lorealtablette}
                     altTablette= "L'Oréal BeWith nouvelle Egérie sur tablette"
-                    info= "Objectif: Faire un site pour L'Oréal, pour lancer l'évènement 'BeWith' la nouvelle Egérie."
+                    info= "Bienvenue dans l'univers Be With, où la beauté s'unit à l'authenticité pour célébrer la diversité, l'inclusion et l'individualité. Chez L'Oréal, nous croyons que la véritable essence de la beauté réside dans la confiance en soi et la capacité à exprimer sa propre histoire. C'est dans cet esprit que nous sommes fiers de présenter notre nouvel évènement 'Be With la nouvelle Egérie', une source d'inspiration qui incarne la force, la grâce et la passion. "
                 />
                 <InputForm 
-                    title= "Les Villes De Mes Vacances"
+                    title= "Voyages en mémoire"
                     link= "/projetVacances"
-                    imgMobile= {MesVacances}
-                    altMobile= "Les villes où je suis allée en vacances"
-                    imgDesktop= {MVContact}
-                    altDesktop= "Page de contact du site"
-                    imgTablette= {MVModifDelete}
-                    altTablette= "Gestion des villes modification et suppression"
-                    info= "Objectif: Faire un site pour présenter toutes les villes que j'ai visité durant mes vacances.<br/> Possibilité d'ajouter, de modifier et de supprimer une ville ou un pays."
+                    imgMobile= {vacancesMobile}
+                    altMobile= "Les villes de mes vacances version mobile"
+                    imgDesktop= {vacancesPc}
+                    altDesktop= "Les villes de mes vacances version desktop"
+                    imgTablette= {vacancesTablette}
+                    altTablette= "Les villes de mes vacances version tablette"
+                    info= "Bienvenue dans mon carnet de voyage, un témoignage de mes souvenirs à travers les villes captivantes que j'ai eu le privilège de visiter. Images, informations utiles, visites à ne pas rater, rejoignez-moi dans cette aventure et que chaque destination inspire votre prochaine escapade et vous rappelle les merveilles qui attendent ceux qui osent explorer le monde!"
                 />
                 <InputForm 
                     title= "Eating Nam Nam"
@@ -75,7 +75,7 @@ function Projets() {
                     altDesktop= "Eating Nam Nam, le site de partage de recettes sur pc"
                     imgTablette= {eatingtablette}
                     altTablette= "Eating Nam Nam, le site de partage de recettes sur tablette"
-                    info= "Objectif: Faire un site de partage de recettes.<br/> Possibilité d'ajouter une recette ou un ingrédient."
+                    info= "Bienvenue sur Eating Nam Nam, une plateforme où les passions se rencontrent, les cultures s'entremêlent et les papilles s'éveillent. Dans nos cuisines virtuelles, nous célébrons la diversité des saveurs et des traditions, partageant des recettes chéries qui racontent des histoires de famille, de voyages et de découvertes. Rejoignez notre communauté gourmande pour explorer un monde de délices culinaires !"
                 />
             </ul>
         </div>

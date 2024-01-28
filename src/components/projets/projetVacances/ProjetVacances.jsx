@@ -1,23 +1,51 @@
-import MesVacances from "../../../assets/mesvacances.png";
-import MVModifDelete from "../../../assets/MVModifDelete.png";
-import MVModifDeletePays from "../../../assets/MVModifDeletePays.png";
-import MVContact from "../../../assets/MVContact.png";
-
+import { useEffect } from "react";
+import { Link } from 'react-router-dom';
+import vacancesMobile from "../../../assets/vacancesMobile.png";
+import vacancesTablette from '../../../assets/vacancesTablette.png';
+import vacancesPc from '../../../assets/vacancesPc.png';
+import html from '../../../assets/html-5.png';
+import css from '../../../assets/css-3.png';
+import js from '../../../assets/javascript.png';
+import git from '../../../assets/git.png';
+import github from '../../../assets/github.png';
+import react from '../../../assets/react.svg';
+import express from '../../../assets/express.png';
+import mysql from '../../../assets/mysql.png';
+import "./ProjetVacances.css";
 
 function ProjetVacances() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className='siteVacances'>
-      <h2>Les Villes De Mes Vacances</h2>
-      <p>Objectif: Faire un site pour présenter toutes les villes que j'ai visité durant mes vacances.</p>
-      <p>Possibilité d'ajouter, de modifier et de supprimer une ville ou un pays.</p>
-      <p className='blue'>HTML / CSS / JavaScript / React / Express.js / MySQL / Git / GitHub</p>
-      <img src={MesVacances} alt="Les villes où je suis allée en vacances"/>
-      <h4>Détails du site :</h4>
-      <ul className='autresImg'>
-          <li><img src={MVModifDelete} alt="Gestion des villes modification et suppression"/></li>
-          <li><img src={MVModifDeletePays} alt="Gestion des pays modification et suppression"/></li>
-          <li><img src={MVContact} alt="Page de contact du site"/></li>
-      </ul>
+      <h1>Voyages en mémoire</h1> 
+      <p><span>OBJECTIF : </span> Ce site vise à <span>capturer</span> l'essence même des <span>voyages</span> que j'ai pu réaliser : l'exploration, la <span>découverte</span> et le <span>partage</span> <span>d'informations</span> et de souvenirs inoubliables. Que chaque clic soit une <span>invitation</span> à découvrir ces <span>lieux magiques</span> et à planifier <span>pour vous</span> de nouvelles <span>aventures</span>.</p> 
+      <p><span>DESIGN : </span> Lumineux, élégant, formes arrondies, couleurs dominantes le bleu et le blanc.</p>
+      <p><span>FONCTIONNEMENT : </span> Chaque clic sur le <span>tableau</span> d'une ville vous permettra de découvrir diverses <span>informations</span> la concernant. Du <span>pays</span>, aux heures d'ensoleillement, en passant par la <span>langue</span>, les monuments
+      et les <span>visites</span> à ne pas rater, vous découvrirez pour chaque ville un ensemble de <span>souvenirs</span>, qui j'espère vous donnera <span>envie</span> d'en faire votre prochaine <span>destination</span>.</p>
+      <div className='langagesOutils'>
+        <h3>LANGAGE ET OUTILS UTILISES</h3>
+        <ul>
+          <li><img src={html} alt="Logo HTML"/></li>
+          <li><img src={css} alt="Logo CSS"/></li>
+          <li><img src={js} alt="Logo JavaScript"/></li>
+          <li><img src={react} alt="Logo React"/></li>
+          <li><img src={express} alt="Logo Express"/></li>
+          <li><img src={mysql} alt="Logo MySQL"/></li>
+          <li><img src={git} alt="Logo Git"/></li> 
+          <li><img src={github} alt="Logo GitHub"/></li>
+        </ul>
+      </div>
+      <div className='imageSite'>
+        <p className='deployed'>Cliquer sur une image pour accéder au site</p>
+        <Link to="/" target="_blank" >
+            <img src={vacancesMobile} alt="Voyages en mémoire version mobile" className='versionMobile'/>
+            <img src={vacancesPc} alt="Voyages en mémoire version pc" className='versionPc'/>
+            <img src={vacancesTablette} alt="Voyages en mémoire version tablette" className='versionTablette'/>
+        </Link>
+      </div>
     </div>
   )
 }

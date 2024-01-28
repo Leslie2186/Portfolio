@@ -1,3 +1,15 @@
+@keyframes info {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
 .projets{
     border-radius: 10px;
     backdrop-filter: blur(20px);
@@ -6,6 +18,32 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     list-style-type: none;
     margin-bottom: 100px;
+}
+
+.containImg:hover > .containInfo{
+    visibility: visible;
+    animation: info 1s ease 0s 1 normal forwards;
+}
+
+.containInfo{
+    width: auto;
+    height: 326px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    visibility: hidden;
+}
+
+.containInfo p{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .projets .images{
