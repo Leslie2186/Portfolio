@@ -8,8 +8,8 @@ function Footer() {
     <div className="containFooter">
         <p>© Leslie Pellegrin Moraud</p>
         <div className="socialNetwork">
-            <div><Link to="https://github.com/Leslie2186"><img src={github} alt="Logo GitHub" className="github"/></Link></div>
-            <div><Link to="https://linkedin.com/in/lesliemoraud"><img src={linkedin} alt="Logo Linkedin" className="linkedin"/></Link></div>
+            <div><Link to="https://github.com/Leslie2186" target="_blank"><img src={github} alt="Logo GitHub" className="github"/></Link></div>
+            <div><Link to="https://linkedin.com/in/lesliemoraud" target="_blank"><img src={linkedin} alt="Logo Linkedin" className="linkedin"/></Link></div>
         </div>
     </div>
   )
