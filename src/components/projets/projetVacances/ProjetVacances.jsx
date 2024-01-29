@@ -1,8 +1,7 @@
 import { useEffect } from "react";
-import { Link } from 'react-router-dom';
-import vacancesMobile from "../../../assets/vacancesMobile.png";
-import vacancesTablette from '../../../assets/vacancesTablette.png';
-import vacancesPc from '../../../assets/vacancesPc.png';
+import voyageMobile from "../../../assets/voyageMobile.png";
+import voyageTablette from '../../../assets/voyageTablette.png';
+import voyagePc from '../../../assets/voyagePc.png';
 import html from '../../../assets/html-5.png';
 import css from '../../../assets/css-3.png';
 import js from '../../../assets/javascript.png';
@@ -39,12 +38,12 @@ function ProjetVacances() {
         </ul>
       </div>
       <div className='imageSite'>
-        <p className='deployed'>Cliquer sur une image pour accéder au site</p>
-        <Link to="/" target="_blank" >
-            <img src={vacancesMobile} alt="Voyages en mémoire version mobile" className='versionMobile'/>
-            <img src={vacancesPc} alt="Voyages en mémoire version pc" className='versionPc'/>
-            <img src={vacancesTablette} alt="Voyages en mémoire version tablette" className='versionTablette'/>
-        </Link>
+            <img src={voyageMobile} alt="Voyages en mémoire version mobile" className='versionMobile'/>
+            <img src={voyagePc} alt="Voyages en mémoire version pc" className='versionPc'/>
+            <img src={voyageTablette} alt="Voyages en mémoire version tablette" className='versionTablette'/>
+      </div>
+      <div className='videoSite'>
+      <video controls><source src="" type="video/mp4" /></video>
       </div>
     </div>
   )

@@ -59,12 +59,14 @@
     height: auto;
 }
 
-.deployed{
-    text-decoration: underline;
+.videoSite{
+    text-align: center;
 }
 
-.imageSite p{
-    text-align: center;
+.videoSite video{
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 40px;
 }
 
 @media screen and (min-width: 1000px){
@@ -77,6 +79,10 @@
     .siteVacances img.versionPc{
         width: 500px;
         height: auto;
+    }
+
+    .siteVacances video{
+        width: 900px;
     }
 
     .siteVacances p{

@@ -4,9 +4,9 @@ import pcquizz from "../../assets/pcquizz.png";
 import mobilesh from "../../assets/mobileSH.png";
 import tablettesh from "../../assets/tabletteSH.png";
 import pcsh from "../../assets/pcSH.png";
-import vacancesMobile from "../../assets/vacancesMobile.png";
-import vacancesTablette from "../../assets/vacancesTablette.png";
-import vacancesPc from "../../assets/vacancesPc.png";
+import voyageMobile from "../../assets/voyageMobile.png";
+import voyageTablette from "../../assets/voyageTablette.png";
+import voyagePc from "../../assets/voyagePc.png";
 import lorealmobile from "../../assets/lorealmobile.png";
 import lorealtablette from "../../assets/lorealtablette.png";
 import lorealpc from "../../assets/lorealpc.png";
@@ -23,15 +23,15 @@ function Projets() {
         <div className='listProjets'>
             <ul>
                 <InputForm 
-                    title= "Quiz Biarritz"
-                    link= "/projetQuizz"
-                    imgMobile= {mobilequizz}
-                    altMobile= "Quiz Biarritz version mobile"
-                    imgDesktop= {pcquizz}
-                    altDesktop= "Quiz Biarritz version pc"
-                    imgTablette= {tablettequizz}
-                    altTablette= "Quiz Biarritz version tablette"
-                    info= "Bienvenue à Biarritz, une ville envoûtante nichée sur la côte basque française. Son histoire riche et sa culture vibrante caractérisent cette destination balnéaire unique. Êtes-vous prêt à explorer les trésors cachés de Biarritz ? Alors, plongez dans notre quizz envoûtant !"
+                    title= "Eating Nam Nam"
+                    link= "/eating"
+                    imgMobile= {eatingmobile}
+                    altMobile= "Eating Nam Nam, le site de partage de recettes sur mobile"
+                    imgDesktop= {eatingpc}
+                    altDesktop= "Eating Nam Nam, le site de partage de recettes sur pc"
+                    imgTablette= {eatingtablette}
+                    altTablette= "Eating Nam Nam, le site de partage de recettes sur tablette"
+                    info= "Bienvenue sur Eating Nam Nam, une plateforme où les passions se rencontrent, les cultures s'entremêlent et les papilles s'éveillent. Dans nos cuisines virtuelles, nous célébrons la diversité des saveurs et des traditions, partageant des recettes chéries qui racontent des histoires de famille, de voyages et de découvertes. Rejoignez notre communauté gourmande pour explorer un monde de délices culinaires !"
                 />
                 <InputForm 
                     title= "Super Hero Cards"
@@ -58,24 +58,24 @@ function Projets() {
                 <InputForm 
                     title= "Voyages en mémoire"
                     link= "/projetVacances"
-                    imgMobile= {vacancesMobile}
+                    imgMobile= {voyageMobile}
                     altMobile= "Les villes de mes vacances version mobile"
-                    imgDesktop= {vacancesPc}
+                    imgDesktop= {voyagePc}
                     altDesktop= "Les villes de mes vacances version desktop"
-                    imgTablette= {vacancesTablette}
+                    imgTablette= {voyageTablette}
                     altTablette= "Les villes de mes vacances version tablette"
                     info= "Bienvenue dans mon carnet de voyage, un témoignage de mes souvenirs à travers les villes captivantes que j'ai eu le privilège de visiter. Images, informations utiles, visites à ne pas rater, rejoignez-moi dans cette aventure et que chaque destination inspire votre prochaine escapade et vous rappelle les merveilles qui attendent ceux qui osent explorer le monde!"
                 />
                 <InputForm 
-                    title= "Eating Nam Nam"
-                    link= "/eating"
-                    imgMobile= {eatingmobile}
-                    altMobile= "Eating Nam Nam, le site de partage de recettes sur mobile"
-                    imgDesktop= {eatingpc}
-                    altDesktop= "Eating Nam Nam, le site de partage de recettes sur pc"
-                    imgTablette= {eatingtablette}
-                    altTablette= "Eating Nam Nam, le site de partage de recettes sur tablette"
-                    info= "Bienvenue sur Eating Nam Nam, une plateforme où les passions se rencontrent, les cultures s'entremêlent et les papilles s'éveillent. Dans nos cuisines virtuelles, nous célébrons la diversité des saveurs et des traditions, partageant des recettes chéries qui racontent des histoires de famille, de voyages et de découvertes. Rejoignez notre communauté gourmande pour explorer un monde de délices culinaires !"
+                    title= "Quiz Biarritz"
+                    link= "/projetQuizz"
+                    imgMobile= {mobilequizz}
+                    altMobile= "Quiz Biarritz version mobile"
+                    imgDesktop= {pcquizz}
+                    altDesktop= "Quiz Biarritz version pc"
+                    imgTablette= {tablettequizz}
+                    altTablette= "Quiz Biarritz version tablette"
+                    info= "Bienvenue à Biarritz, une ville envoûtante nichée sur la côte basque française. Son histoire riche et sa culture vibrante caractérisent cette destination balnéaire unique. Êtes-vous prêt à explorer les trésors cachés de Biarritz ? Alors, plongez dans notre quizz envoûtant !"
                 />
             </ul>
         </div>
