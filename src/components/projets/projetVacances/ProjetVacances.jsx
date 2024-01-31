@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import voyageMobile from "../../../assets/voyageMobile.png";
 import voyageTablette from '../../../assets/voyageTablette.png';
 import voyagePc from '../../../assets/voyagePc.png';
@@ -38,11 +39,12 @@ function ProjetVacances() {
         </ul>
       </div>
       <div className='imageSite'>
+        <p className='deployed'>Cliquer sur une image pour accéder à la vidéo Youtube du site</p>
+          <Link to="https://youtu.be/vcB-589lKQk" target="_blank">
             <img src={voyageMobile} alt="Voyages en mémoire version mobile" className='versionMobile'/>
             <img src={voyagePc} alt="Voyages en mémoire version pc" className='versionPc'/>
             <img src={voyageTablette} alt="Voyages en mémoire version tablette" className='versionTablette'/>
-      </div>
-      <div className='videoSitePV'>
+          </Link>
       </div>
     </div>
   )

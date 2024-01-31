@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { Link } from "react-router-dom";
 import html from '../../../assets/html-5.png';
 import css from '../../../assets/css-3.png';
 import js from '../../../assets/javascript.png';
@@ -41,11 +42,12 @@ function Loreal() {
         </ul>
       </div>
       <div className='imageSite'>
+        <p className='deployed'>Cliquer sur une image pour accéder à la vidéo Youtube du site</p>
+          <Link to="https://youtu.be/6eUdasflgcA" target="_blank">
             <img src={lorealMobile} alt="Super Hero Cards sur mobile" className='versionMobile'/>
             <img src={lorealPc} alt="Super Hero Cards sur pc" className='versionPc'/>
             <img src={lorealTablette} alt="Super Hero Cards sur tablette" className='versionTablette'/>
-      <div className='videoSite'>
-      </div>
+          </Link>
       </div>
     </div>
   )
