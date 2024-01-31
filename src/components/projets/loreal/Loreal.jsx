@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import lorealvideo from "../../../assets/lorealvideo.mp4";
 import html from '../../../assets/html-5.png';
 import css from '../../../assets/css-3.png';
 import js from '../../../assets/javascript.png';
@@ -8,6 +7,9 @@ import github from '../../../assets/github.png';
 import react from '../../../assets/react.svg';
 import express from '../../../assets/express.png';
 import mysql from '../../../assets/mysql.png';
+import lorealMobile from "../../../assets/lorealmobile.png";
+import lorealTablette from "../../../assets/lorealtablette.png";
+import lorealPc from "../../../assets/lorealpc.png";
 import './Loreal.css';
 
 function Loreal() {
@@ -38,8 +40,13 @@ function Loreal() {
           <li><img src={github} alt="Logo GitHub"/></li>
         </ul>
       </div>
+      <div className='imageSite'>
+            <img src={lorealMobile} alt="Super Hero Cards sur mobile" className='versionMobile'/>
+            <img src={lorealPc} alt="Super Hero Cards sur pc" className='versionPc'/>
+            <img src={lorealTablette} alt="Super Hero Cards sur tablette" className='versionTablette'/>
       <div className='videoSite'>
-      <video controls><source src={lorealvideo} type="video/mp4" /></video>
+        <video controls><source src="" type="video/mp4" /></video>
+      </div>
       </div>
     </div>
   )

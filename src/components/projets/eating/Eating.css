@@ -67,11 +67,21 @@
     text-align: center;
 }
 
+.videoSiteEating video{
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
 @media screen and (min-width: 1000px){
     .projetEating{
         width: 1000px;
         margin-top: 50px;
         margin-bottom: 90px;
+    }
+
+    .videoSiteEating video{
+        width: 900px;
     }
 
     .projetEating img.versionPc{
