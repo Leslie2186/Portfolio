@@ -45,8 +45,6 @@ function ProjetVacances() {
       <div className='videoSitePV'>
       <video controls><source src="" type="video/mp4" /></video>
       </div>
-
-      <p>ssdfdgfgdf</p>
     </div>
   )
 }
