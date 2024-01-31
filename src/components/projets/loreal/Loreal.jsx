@@ -45,7 +45,6 @@ function Loreal() {
             <img src={lorealPc} alt="Super Hero Cards sur pc" className='versionPc'/>
             <img src={lorealTablette} alt="Super Hero Cards sur tablette" className='versionTablette'/>
       <div className='videoSite'>
-        <video controls><source src="" type="video/mp4" /></video>
       </div>
       </div>
     </div>

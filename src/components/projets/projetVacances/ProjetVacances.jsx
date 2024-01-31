@@ -43,7 +43,6 @@ function ProjetVacances() {
             <img src={voyageTablette} alt="Voyages en mémoire version tablette" className='versionTablette'/>
       </div>
       <div className='videoSitePV'>
-      <video controls><source src="" type="video/mp4" /></video>
       </div>
     </div>
   )
