@@ -39,7 +39,8 @@ function ProjetEating() {
         </ul>
       </div>
       <div className='imageSite'>
-        <p className='deployed'>Cliquer sur une image pour accéder au site</p>
+        <Link to="https://youtu.be/kBzG2exSqRs" target="_blank" ><p className='deployed'>Cliquer sur ce lien pour accéder à la vidéo youtube du site</p></Link>
+        <p className='deployed'>Cliquer sur une image pour accéder au site déployé</p>
         <Link to="https://eating-nam-nam.remote-fr-3.wilders.dev/" target="_blank" >
             <img src={eatingmobile} alt="Eating Nam Nam version mobile" className='versionMobile'/>
             <img src={eatingpc} alt="Eating Nam Nam version pc" className='versionPc'/>

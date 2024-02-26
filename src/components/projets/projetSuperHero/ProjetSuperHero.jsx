@@ -42,7 +42,8 @@ function ProjetSuperHero() {
         </ul>
       </div>
       <div className='imageSite'>
-        <p className='deployed'>Cliquer sur une image pour accéder au site</p>
+        <Link to="https://youtu.be/b7TxJLh5NV8" target="_blank" ><p className='deployed'>Cliquer sur ce lien pour accéder à la vidéo youtube du site</p></Link>
+        <p className='deployed'>Cliquer sur une image pour accéder au site déployé</p>
         <Link to="https://capteam-america.remote-fr-3.wilders.dev/" target="_blank">
             <img src={mobilesh} alt="Super Hero Cards sur mobile" className='versionMobile'/>
             <img src={pcsh} alt="Super Hero Cards sur pc" className='versionPc'/>
